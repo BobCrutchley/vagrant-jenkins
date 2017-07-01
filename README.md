@@ -1,5 +1,13 @@
 # vagrant-jenkins
-Vagrant project for creating a Jenkins CI server
 
+### Requirements
+- VirtualBox
+- Vagrant
+- Ansible
 
-# Requirements
+## Setup
+```bash
+git clone https://github.com/BobCrutchley/vagrant-jenkins.git
+cd vagrant-jenkins
+vagrant up
+```
