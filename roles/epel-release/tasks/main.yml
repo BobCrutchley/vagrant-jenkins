@@ -3,5 +3,6 @@
     yum:
       name=epel-release
       state=present
+      
   - name: install updates
     yum: name=* state=latest update_cache=yes
