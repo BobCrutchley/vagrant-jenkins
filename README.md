@@ -5,7 +5,7 @@
 - Vagrant
 - Ansible
 
-[Installing requirements guide](/docs/prerequisite-guide.md)
+[Installing requirements guide](/docs/prerequisites.md)
 
 ### Setup
 ```bash
