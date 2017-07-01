@@ -1,0 +1,13 @@
+---
+- name: Configure Jenkins server
+  hosts: all
+  user: vagrant
+  sudo: True
+  roles:
+    - wget
+    - epel-release
+    - git
+    - java
+    - jenkins
+    - nginx
+
